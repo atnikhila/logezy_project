@@ -351,54 +351,6 @@
             }
           },
           "response": []
-        },
-        {
-          "name": "{{baseUrl}}/users/me",
-          "id": "a1faf608-49ea-42a6-8035-05aa041ef6c4",
-          "protocolProfileBehavior": {
-            "disableBodyPruning": true
-          },
-          "request": {
-            "auth": {
-              "type": "bearer",
-              "bearer": [
-                {
-                  "key": "token",
-                  "value": "{{token}}",
-                  "type": "string"
-                }
-              ]
-            },
-            "method": "GET",
-            "header": [
-              {
-                "key": "Authorization",
-                "value": "Bearer{{token}}",
-                "type": "text",
-                "uuid": "2eeb9011-3de7-4203-8190-3652ba675e07"
-              }
-            ],
-            "body": {
-              "mode": "raw",
-              "raw": "",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
-            "url": {
-              "raw": "{{baseUrl}}/users/me",
-              "host": [
-                "{{baseUrl}}"
-              ],
-              "path": [
-                "users",
-                "me"
-              ]
-            }
-          },
-          "response": []
         }
       ],
       "id": "f063d266-6952-473e-9315-d790f147e04f"
